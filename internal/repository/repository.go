@@ -10,7 +10,3 @@ type SpotRepository interface {
 	GetByID(ctx context.Context, id string) (*domain.Spot, error)
 	List(ctx context.Context) ([]*domain.Spot, error)
 }
-
-func (repo *SpotRepository) Create(ctx context.Context, spot *domain.Spot) error {
-
-}
