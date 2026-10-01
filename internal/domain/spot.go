@@ -23,6 +23,7 @@ var (
 	ErrEmptyName     = errors.New("empty/short name")
 	ErrSpotNotFound  = errors.New("spot not found")
 	ErrInvalidFigure = errors.New("invalid figure")
+	ErrInvalidID     = errors.New("invalid ID")
 )
 
 type Spot struct {
